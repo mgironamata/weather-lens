@@ -12,6 +12,7 @@ This repository focuses on evaluating atmospheric model performance using metric
     - `data/`: Downloading from Herbie (AIFS/IFS), GCS (WN2), and ERA5.
     - `processing/`: GRIB-to-Zarr conversion, alignment, and regridding.
     - `evaluation/`: Scientific metrics implementation (CRPS, Variogram, etc.).
+    - `toy_data/`: Experimental scripts for Gaussian Mixture Models (GMM) and score landscape studies.
     - `viz/`: Plotting utilities for skill scores and diagnostics.
     - `batch/`: Automation scripts for large-scale HPC runs.
 - `src/weather_lens/`: Reusable Python modules and library code.

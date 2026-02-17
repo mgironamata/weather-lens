@@ -1,0 +1,43 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+nosetests.xml
+coverage.xml
+.mypy_cache/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+Untitled*.ipynb
+
+# Data and Artifacts (Exclude large files)
+*.nc
+!results/metrics/*.nc
+*.zarr/
+**/results/
+!results/
+!results/metrics/
+!results/plots/
+results/**
+!results/metrics/**
+!results/plots/**
+
+# Specific ignores
+*.pth
+!models/*.pth
+logs/
+*.log
